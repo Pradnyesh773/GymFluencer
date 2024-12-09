@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles1.css" />
+    <title>Contact Us - GymFluencer</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo1.png" alt="logo" class="logo-white" />
+              <img src="assets/logo2.png" alt="logo" class="logo-dark" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#service">Services</a></li>
+          <li><a href="index.html#class">Classes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/join.html">Join Now</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn" onclick="window.location.href='join.html';">Join Now</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Form -->
+    <section class="contact">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Fill out the form below, and we'll get back to you as soon as possible.</p>
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
